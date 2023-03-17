@@ -1,0 +1,43 @@
+{
+	"[python]": {
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": null,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"python.formatting.blackArgs": [
+		"--line-length",
+		"120"
+	],
+	"python.formatting.provider": "black",
+	"python.analysis.extraPaths": [
+		"./client"
+	],
+	"python.linting.enabled": true,
+	"python.linting.lintOnSave": true,
+	"python.linting.pylintEnabled": true,
+	"python.linting.pylintPath": "pylint",
+	"python.linting.pylintArgs": [],
+	"python.testing.pytestEnabled": true,
+	"python.testing.pytestPath": "pytest",
+	"python.testing.pytestArgs": [],
+	"python.testing.autoTestDiscoverOnSaveEnabled": true,
+	"python.testing.cwd": "./tests/",
+	"python.testing.promptToConfigure": true,
+	"python.linting.cwd": "/",
+	"python.autoComplete.extraPaths": [
+		"./src"
+	],
+	"python.defaultInterpreterPath": "/usr/bin/python3",
+	"python.envFile": "${workspaceFolder}/.env",
+	"python.languageServer": "Pylance",
+	"python.formatting.blackPath": "black",
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.diagnosticMode": "openFilesOnly",
+	"python.venvFolders": [
+		"/home/local/"
+	],
+}
