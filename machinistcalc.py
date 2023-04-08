@@ -1,2 +1,1 @@
-import speedfeed
-
+import speedfeed.py as speedfeed
