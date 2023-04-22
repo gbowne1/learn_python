@@ -1,1 +1,0 @@
-package_var = "Package-level variable from init.py"

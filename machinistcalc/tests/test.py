@@ -1,5 +1,5 @@
 import pytest
-from machinistcalc.speedfeed import calculate_speed, calculate_feed
+from machinistcalc.app.speedfeed import calculate_speed, calculate_feed
 
 def test_calculate_speed():
     result = calculate_speed(1000, 2)
